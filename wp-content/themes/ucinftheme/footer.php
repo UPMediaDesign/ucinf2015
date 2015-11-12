@@ -53,6 +53,87 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
 <script>
+    $(document).ready(function(){                        
+       
+       //Navigation Menu Slider
+        $('#nav-expander').on('click',function(e){
+          e.preventDefault();
+          $('body').toggleClass('nav-expanded');
+        });
+        $('#nav-close').on('click',function(e){
+          e.preventDefault();
+          $('body').removeClass('nav-expanded');
+        });
+        
+        $(".main-menu").navgoco({
+            caret: '<span class="caret"></span>',
+            accordion: false,
+            openClass: 'open',
+            save: true,
+            cookie: {
+                name: 'navgoco',
+                expires: false,
+                path: '/'
+            },
+            slide: {
+                duration: 300,
+                easing: 'swing'
+            }
+        });
+        
+      });
+</script>
+
+
+<script>
+$('#carousel-1 ul').bxSlider({
+  minSlides: 2,
+  maxSlides: 4,
+  slideWidth: 290,
+  slideMargin: 15,
+  moveSlides: 1,
+  pager:false,
+  nextText:'<span class="fa fa-angle-right fa-fw"></span>',
+  prevText:'<span class="fa fa-angle-left fa-fw"></span>',
+});
+
+$('#carousel-2 ul').bxSlider({
+  minSlides: 2,
+  maxSlides: 2,
+  slideWidth: 585,
+  slideMargin: 15,
+  moveSlides: 1,
+  controls:false,
+  nextText:'<span class="fa fa-angle-right fa-fw"></span>',
+  prevText:'<span class="fa fa-angle-left fa-fw"></span>',
+});
+
+</script>
+
+<script>
+   $(document).ready(function($) {
+        $('#facultades').carouFredSel({
+            responsive: true,
+            width: '100%',
+            scroll: 2,
+            auto:false,
+            prev: '#anteb',
+            next: '#sgteb',
+            height: 320,
+            pagination: "#pager",
+             items: {
+                width: 230,
+                //height: '50%',  //  optionally resize item-height
+                visible: {
+                    min: 2,
+                    max: 4,
+                }
+            } 
+        });
+    });
+</script>
+
+<script>
 jQuery(window).load(function() {
 	jQuery("#loader-wrapper").fadeOut("slow");
 })

@@ -33,6 +33,7 @@ function call_scripts() {
 	wp_deregister_script('jquery');
   wp_enqueue_script('jquery' , 'http://code.jquery.com/jquery-1.10.0.min.js' , array() , '1.10' , true);
   wp_enqueue_script('core' , get_template_directory_uri() . '/js/core.js' , array() , '1.0' , true);
+  wp_enqueue_script('core' , get_template_directory_uri() . '/js/bxslider.js' , array() , '1.0' , true);
 } 
 add_action('wp_enqueue_scripts', 'call_scripts');
 ?>

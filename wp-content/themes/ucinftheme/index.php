@@ -36,17 +36,16 @@
     
 </section>
 
-<!-- Facultades -->
-<section class="bg-egray faculties" id="facultades">
+
+<div id="store" class="bg-egray faculties">
     <div class="container">
-        <div class="row">
-            <h2>Facultades</h2>
-            <div class="clear separator brd"></div>
-                <div class="carousel" id="carousel-2">
-                    <ul>
-                        <?php $facultades = get_posts(array('post_type' => 'facultades' , 'numberposts' => -1 ))?> 
-                        <?php foreach($facultades as $facultad):?>
-                           
+        <div class="row carrusel">
+        <h2>Facultades</h2>
+        <div class="clear separator brd"></div>
+            <ul id="facultades">
+                <?php $facultades = get_posts(array('post_type' => 'facultades' , 'numberposts' => -1 ))?>
+                <?php $tp = count($facultades);?>
+                <?php foreach($facultades as $facultad):?>
                         <li class="col-md-3 col-lg-3 col-sm-6 col-xs-12 area <?php echo get_field('clase_facultad',$facultad->ID); ?>">
                             <figure class="col-xs-12 col-esp">
                                 <?php echo get_the_post_thumbnail($facultad->ID , 'full' , array('class' => 'img-responsive'))?>
@@ -64,61 +63,13 @@
                             </figure>
                             
                         </li>
-                                
-                        <?php endforeach;?>
-                    </ul>
-                </div>
-                        
-        </div>
-    </div>
-</section>
-
-
-<script>
-jQuery(document).ready(function($) {
-    jQuery('#facultades').carouFredSel({
-        responsive: true,
-        width: '100%',
-        scroll: 2,
-        auto:false,
-        prev: '#anteb',
-        next: '#sgteb',
-        height: 320,
-        pagination: "#pager",
-         items: {
-            width: 230,
-            //height: '50%',  //  optionally resize item-height
-            visible: {
-                min: 2,
-                max: 6
-            }
-        } 
-    });
-});
-</script>
-
-<div id="store">
-    <div class="container">
-        <div class="row carrusel">
-        <h3>Facultades</h3>
-            <ul id="facultades">
-                <?php $facultades = get_posts(array('post_type' => 'facultades' , 'numberposts' => 4 ))?>
-                <?php $tp = count($facultades);?>
-                <?php foreach($facultades as $facultad):?>
-                    <li class="col-md-3 col-lg-3 col-sm-4 col-xs-2 producto">
-                        <?php echo get_the_post_thumbnail($facultad->ID , 'full' , array('class' => 'img-responsive aligncenter'))?>
-                        <h4><?php echo $facultad->post_title?></h4>
-
-                        
-                       
-                    </li>
                 <?php endforeach;?>
                 
             </ul>
             <div class="clear"></div>
             <div class="controls">
-                <div id="anteb" class="control"><span class="fa fa-chevron-left"></span></div>
-                <div id="sgteb" class="control"><span class="fa fa-chevron-right"></span></div>
+                <div id="anteb" class="control"><span class="fa fa-circle"></span></div>
+                <div id="sgteb" class="control"><span class="fa fa-circle"></span></div>
             </div>
         </div>
         <div class="clear"></div>
@@ -201,31 +152,6 @@ jQuery(document).ready(function($) {
 </section>
 
 
-
-<script>
-$('#carousel-1 ul').bxSlider({
-  minSlides: 2,
-  maxSlides: 4,
-  slideWidth: 290,
-  slideMargin: 15,
-  moveSlides: 1,
-  pager:false,
-  nextText:'<span class="fa fa-angle-right fa-fw"></span>',
-  prevText:'<span class="fa fa-angle-left fa-fw"></span>',
-});
-
-$('#carousel-2 ul').bxSlider({
-  minSlides: 2,
-  maxSlides: 2,
-  slideWidth: 585,
-  slideMargin: 15,
-  moveSlides: 1,
-  controls:false,
-  nextText:'<span class="fa fa-angle-right fa-fw"></span>',
-  prevText:'<span class="fa fa-angle-left fa-fw"></span>',
-});
-
-</script>
 
 
 <?php get_footer()?>

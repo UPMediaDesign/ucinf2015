@@ -436,34 +436,18 @@
 	"buffers":
 	[
 		{
-			"file": "wp-config.php",
-			"settings":
-			{
-				"buffer_size": 3026,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "wp-config-sample.php",
-			"settings":
-			{
-				"buffer_size": 3214,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "wp-content/themes/ucinftheme/index.php",
 			"settings":
 			{
-				"buffer_size": 7092,
+				"buffer_size": 7180,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "wp-content/themes/ucinftheme/footer.php",
+			"file": "wp-content/themes/ucinftheme/functions.php",
 			"settings":
 			{
-				"buffer_size": 5023,
+				"buffer_size": 8219,
 				"line_ending": "Windows"
 			}
 		},
@@ -471,15 +455,15 @@
 			"file": "wp-content/themes/ucinftheme/js/core.js",
 			"settings":
 			{
-				"buffer_size": 199589,
-				"line_ending": "Unix"
+				"buffer_size": 202758,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "wp-content/themes/ucinftheme/style.css",
 			"settings":
 			{
-				"buffer_size": 21468,
+				"buffer_size": 31224,
 				"line_ending": "Windows"
 			}
 		},
@@ -487,32 +471,16 @@
 			"file": "wp-content/themes/ucinftheme/header.php",
 			"settings":
 			{
-				"buffer_size": 3129,
-				"line_ending": "Unix"
+				"buffer_size": 3149,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "wp-content/themes/ucinftheme/functions.php",
+			"file": "wp-content/themes/ucinftheme/footer.php",
 			"settings":
 			{
-				"buffer_size": 8114,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "wp-content/themes/ucinftheme/page-postgrados.php",
-			"settings":
-			{
-				"buffer_size": 539,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "wp-content/themes/ucinftheme/page-admision2016.php",
-			"settings":
-			{
-				"buffer_size": 542,
-				"line_ending": "Unix"
+				"buffer_size": 7002,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -544,6 +512,12 @@
 	},
 	"file_history":
 	[
+		"/C/Users/carlo/Documents/GitHub/ucinf2015/wp-config.php",
+		"/C/Users/carlo/Documents/GitHub/ucinf2015/wp-config-sample.php",
+		"/C/Users/carlo/Documents/GitHub/ucinf2015/wp-content/themes/ucinftheme/page-admision2016.php",
+		"/C/Users/carlo/Documents/GitHub/ucinf2015/wp-content/themes/ucinftheme/page-postgrados.php",
+		"/C/Users/carlo/Documents/GitHub/ucinf2015/wp-content/themes/ucinftheme/functions.php",
+		"/C/Users/carlo/Documents/GitHub/ucinf2015/wp-content/themes/ucinftheme/footer.php",
 		"/Users/upmedia/GitHub/milagrosdeamor.cl/wp-content/themes/unomasuno/header.php",
 		"/Users/upmedia/GitHub/milagrosdeamor.cl/wp-content/themes/unomasuno/page-30.php",
 		"/Users/upmedia/GitHub/Sitio IP Chile/ipchile/ipchat/webchat.css",
@@ -665,13 +639,7 @@
 		"/private/var/folders/qt/8cc7xcts4cjccztx7wylwbjh0000gn/T/fz3temp-1/index.html",
 		"/private/var/folders/qt/8cc7xcts4cjccztx7wylwbjh0000gn/T/fz3temp-1/page_banners.php",
 		"/Users/upmedia/Desktop/SITIOS/UPMEDIA/public_html/regcom/wp-content/themes/front/page-actividades.php",
-		"/private/var/folders/qt/8cc7xcts4cjccztx7wylwbjh0000gn/T/fz3temp-1/style.css",
-		"/private/var/folders/qt/8cc7xcts4cjccztx7wylwbjh0000gn/T/fz3temp-1/footer.php",
-		"/private/var/folders/qt/8cc7xcts4cjccztx7wylwbjh0000gn/T/fz3temp-1/header.php",
-		"/private/var/folders/qt/8cc7xcts4cjccztx7wylwbjh0000gn/T/fz3temp-1/search.php",
-		"/private/var/folders/qt/8cc7xcts4cjccztx7wylwbjh0000gn/T/fz3temp-1/wp-config.php",
-		"/private/var/folders/qt/8cc7xcts4cjccztx7wylwbjh0000gn/T/fz3temp-1/wp-config-sample.php",
-		"/private/var/folders/qt/8cc7xcts4cjccztx7wylwbjh0000gn/T/fz3temp-1/functions.php"
+		"/private/var/folders/qt/8cc7xcts4cjccztx7wylwbjh0000gn/T/fz3temp-1/style.css"
 	],
 	"find":
 	{
@@ -836,45 +804,77 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "wp-config.php",
+					"file": "wp-content/themes/ucinftheme/index.php",
 					"settings":
 					{
-						"buffer_size": 3026,
+						"buffer_size": 7180,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								456,
-								456
+								3409,
+								3409
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 597.0,
+						"translation.y": 680.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "wp-config-sample.php",
+					"file": "wp-content/themes/ucinftheme/functions.php",
 					"settings":
 					{
-						"buffer_size": 3214,
+						"buffer_size": 8219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1858,
+								1858
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "wp-content/themes/ucinftheme/js/core.js",
+					"settings":
+					{
+						"buffer_size": 202758,
 						"regions":
 						{
 						},
@@ -887,133 +887,38 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "wp-content/themes/ucinftheme/index.php",
-					"settings":
-					{
-						"buffer_size": 7092,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3763,
-								3785
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1599.0,
+						"translation.y": 1576.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "wp-content/themes/ucinftheme/footer.php",
-					"settings":
-					{
-						"buffer_size": 5023,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								981,
-								981
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "wp-content/themes/ucinftheme/js/core.js",
-					"settings":
-					{
-						"buffer_size": 199589,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								85263,
-								85263
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 18976.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 5,
 					"file": "wp-content/themes/ucinftheme/style.css",
 					"settings":
 					{
-						"buffer_size": 21468,
+						"buffer_size": 31224,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17457,
-								17457
+								0,
+								0
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
@@ -1023,29 +928,30 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7205.0,
+						"translation.y": 2765.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 4,
 					"file": "wp-content/themes/ucinftheme/header.php",
 					"settings":
 					{
-						"buffer_size": 3129,
+						"buffer_size": 3149,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1481,
-								1481
+								969,
+								969
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
@@ -1055,97 +961,34 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 413.0,
+						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "wp-content/themes/ucinftheme/functions.php",
+					"buffer": 5,
+					"file": "wp-content/themes/ucinftheme/footer.php",
 					"settings":
 					{
-						"buffer_size": 8114,
+						"buffer_size": 7002,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								252,
-								252
+								3899,
+								3899
 							]
 						],
 						"settings":
 						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 232.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "wp-content/themes/ucinftheme/page-postgrados.php",
-					"settings":
-					{
-						"buffer_size": 539,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								539,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "wp-content/themes/ucinftheme/page-admision2016.php",
-					"settings":
-					{
-						"buffer_size": 542,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								222,
-								222
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1553.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1170,18 +1013,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.488911630829,
 			1.0
 		],
 		"rows":
